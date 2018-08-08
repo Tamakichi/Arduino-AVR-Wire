@@ -28,7 +28,6 @@
   #define TWI_FREQ 100000L
   #endif
 
-
 // 2016/04/30 Modified by Tamakichi
 #include "../WIRE_EXPANSION.h"
 # if WIRE_EXPANSION == 1 
@@ -48,6 +47,7 @@
   void twi_init(void);
   void twi_disable(void);
   void twi_setAddress(uint8_t);
+  void twi_setFrequency(uint32_t);
   uint8_t twi_readFrom(uint8_t, uint8_t*, uint8_t, uint8_t);
   uint8_t twi_writeTo(uint8_t, uint8_t*, uint8_t, uint8_t, uint8_t);
   uint8_t twi_transmit(const uint8_t*, uint8_t);
@@ -62,5 +62,6 @@
     uint8_t twi_get_address(void);	
     void twi_set_addressMask(uint8_t);
 #  endif
+
 #endif
 

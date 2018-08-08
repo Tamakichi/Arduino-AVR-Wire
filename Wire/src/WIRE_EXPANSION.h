@@ -1,11 +1,11 @@
 /*
- *  Wireƒ‰ƒCƒuƒ‰ƒŠ‹@”\Šg’£—LŒø/–³ŒøƒXƒCƒbƒ`
- *  2016/05/05 ‚½‚Ü‹g‚³‚ñ
+ *  Wireãƒ©ã‚¤ãƒ–ãƒ©ãƒªæ©Ÿèƒ½æ‹¡å¼µæœ‰åŠ¹/ç„¡åŠ¹ã‚¹ã‚¤ãƒƒãƒ
+ *  2016/05/05 ãŸã¾å‰ã•ã‚“
  */
  
 #ifndef WIRE_EXPANSION_h
 #define WIRE_EXPANSION_h
 
-#define WIRE_EXPANSION 1		// 1:‹@”\Šg’£—LŒø 0:–³Œø
+#define WIRE_EXPANSION 1		// 1:æ©Ÿèƒ½æ‹¡å¼µæœ‰åŠ¹ 0:ç„¡åŠ¹
 
 #endif
